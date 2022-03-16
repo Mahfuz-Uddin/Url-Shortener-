@@ -1,0 +1,62 @@
+.form-body{
+    background-color: gray;
+    text-align: center;
+    font-size: 60px;
+}
+body{
+    background-color: gray;
+}
+
+a:link {
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+button, #login{
+    color: black;
+    height: 30px;
+    width: 110px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#chk1,label{
+    font-size: 20px;
+}
+p {
+    color:red;
+}
+
+
+a.logreg1, a.logreg2 {color: black;}
+.page-links{
+    font-size: 30px ;
+}
+
+input, .form-control{
+    border-radius: 5px;
+}
+
+
+.mute{
+    background-color: yellow;
+    width: 140px;
+}
+
+#mutebutton{
+    list-style-type: none;
+    text-align:right;
+}

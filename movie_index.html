@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Linking code-->
+    
+    <title>Movie Finder</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="script_for_movie.js"></script>
+    <!-- <link rel="stylesheet" href="style2.css"> -->
+    <link rel="stylesheet" href="style3.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Yatra+One" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav id="navbar">
+    <ul>
+      <li class="dropdown">
+        <a href="shortener.php" class="dropbtn " >Home</a>
+        <div class ="dropdown-content">
+        </div>
+      </li>
+      <li class="dropdown">
+       <a href="movie_index.html" class="dropbtn" >Movie Finder</a>
+       <div class ="dropdown-content">
+       </div>
+     </li>
+        <li class="dropdown">
+            <a href="subway.html" class="dropbtn" >Subway App</a>
+            <div class ="dropdown-content">
+            </div>
+        </li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">Course</a>
+        <div class="dropdown-content">
+          <a href="https://tophat.com/" target="_blank">TopHat</a>
+          <a href="https://tinyurl.com/CSCI355-Summer2021" target="_blank">Course Google Drive</a>
+          <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">About</a>
+        <div class="dropdown-content">
+          <a href="aboutme.html">About The Developer</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </li>
+        <li class="dropdown">
+            <a href="logout.php" class="dropbtn" >Log Out</a>
+            <div class ="dropdown-content">
+            </div>
+        </li>
+     </ul>
+  </nav>
+    <!--Header of the page-->
+    <h1 class= 'moviefinder'>Movie Finder</h1>
+    
+    <!--Search Form-->
+    <form id="form1">
+        <input type="text" id="inputMovie" name="title" />
+        <input type="submit" id="moviebutton" value="Submit" />
+    </form>
+    
+    <!--Adding a space-->
+    <hr/>
+    
+    <!--Using bootstrap and divs to organize the page-->
+    <div id="poster" class="row col-xs-12 col-sm-4 col-md-4">
+        <div id="picture" class="row col-sm-12 col-md-6"></div>
+    </div>
+    <div id="title" class="row col-sm-12 col-md-6"></div>
+    <div id="description" class="row col-sm-12 col-md-6"></div>
+    <div id="release_date" class="row col-xs-4 col-sm-4 col-md-4"></div>
+    <div id="original_lang" class="row col-xs-4 col-sm-4 col-md-4"></div>
+    <div id="rating" class="row col-xs-6 col-sm-4 col-md-4"></div>
+    <div id="vote_count" class="row col-xs-6 col-sm-4 col-md-4"></div>
+    <h3 class='footer'> Mahfuz Uddin &copy</h3>
+
+</body>
+
+
+</html>

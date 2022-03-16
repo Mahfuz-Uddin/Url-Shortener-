@@ -1,0 +1,262 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family: "Monseratt", sans-serif;
+}
+
+/* html{
+  background-color: #222629;
+} */
+section h2 h1{
+  font-family: "Monseratt", sans-serif;
+  text-align: center;
+  height: 200px;
+  color: white;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.dropdown {
+  float: left;
+  text-align: center;
+}
+a {
+  text-align: center;
+}
+
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #34495e;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: grey;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #eeeeee;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*Contact.html*/
+.contact-section{
+  background-size:cover;
+  background: #222629;
+  padding: 40px 0;
+}
+
+.contact-section h1{
+  text-align: center;
+  color: #E0E0E0;
+}
+
+.border{
+  width:100px;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+
+.contact-form-text:hover{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+
+textarea.contact-form-text{
+  resize: none;
+  height:120px;
+}
+
+.contact-form-btn{
+  float: right;
+  border: 0;
+  background: #34495e;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+  background: #2980b9;
+}
+
+button{
+  font-family: "Monseratt", sans-serif;
+
+  text-align: center;
+  height: 45px;
+  width: 45%;
+  color: rgb(12, 87, 87);
+  font-size: 25px;
+  background-color: gray;
+}
+
+.userInput{
+  text-align: center;
+  padding-top: 2%;
+}
+
+
+.aboutme h1, h2{
+  text-align: center;
+  color: wheat;
+  padding-top: 1%;
+}
+
+.info{
+  text-align: center;
+}
+
+#contactmeforaboutme{
+  /* position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-53%, -50%); */
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 20px;
+     padding: 20px 20px;
+     color: #fff;
+     border: 1px solid #fff;
+     border-radius: 50%;
+}
+input[type=text] {
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px 20px;
+  background-color:black;
+  color:white;
+  box-sizing: border-box;
+  
+}
+#navbar .current{
+  background-color: grey;
+}
+.mb-4 div{color:white}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body{
+  font-family: Source Sans Pro;
+  background: #282828;
+  background: linear-gradient(-45deg, #080808	, #383838, #787878, #202020);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0%{
+      background-position: 0% 50%;
+  }
+  50%{
+      background-position: 100% 50%;
+  }
+  100%{
+      background-position: 0% 50%;
+  }
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 500%;
+}
+
+#moviebutton {
+  background-color: white;
+  color: black;
+  height: 50px;
+  width: 100px;
+}
+#inputMovie{
+  color: white;
+}
+
+#form1 {
+  text-align: center;
+}
+
+#poster {
+  text-align: center;
+}
+
+#title {
+  color: white;
+  font-family: 'Yatra One', cursive;
+}
+
+img{
+  height: 150%;
+  width: 160%;
+  margin-left: 100px;
+  
+}
+#description, #rating, #original_lang, #release_date,#vote_count{
+  color:white;
+}
+
+.moviefinder{color:white}
+
+.footer{ 
+  font-size:15px;
+  position: fixed;     
+  text-align: center;    
+  bottom: 0px; 
+  width: 100%;
+}  

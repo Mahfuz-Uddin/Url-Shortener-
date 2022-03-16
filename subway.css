@@ -1,0 +1,247 @@
+
+
+.btn1 {
+    display: inline-block;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    border: 10px solid black;
+}
+
+a.btn1 {
+    text-decoration: none;
+    justify-content: flex-end;
+    text-align: center;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.circle {
+    text-align: center;
+    left: 30px;
+    top: 5px;
+    font-size: 100px;
+    color: white;
+}
+
+
+.results {
+    border: 5px solid green;
+    text-align: center;
+    list-style-type: none;
+    font-size: 24px;
+    color: black;
+    background:#d60a36;
+    border-radius:20px;
+    text-decoration: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-gradient(linear,  left top,  left bottom,
+    color-stop(0.00, red),
+    color-stop(16%, orange),
+    color-stop(32%, yellow),
+    color-stop(48%, green),
+    color-stop(60%, blue),
+    color-stop(76%, indigo),
+    color-stop(1.00, violet));
+}
+.results a {
+    text-decoration: none;
+}
+
+#all{
+    background:#5b0612;
+    text-align: center;
+}
+.stations {
+    color: #004d4d;
+    text-align: center;
+    font-size:40px;
+}
+footer{
+    color:black;
+    background-color: white;
+    text-align: center;
+}
+
+
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+}
+.yellow {
+    background: #ffbe42;
+}
+.orange {
+    background: #ff8c00 ;
+}
+.blue {
+    background: blue;
+}
+.brown {
+    background: #614126;
+}
+.lightgreen {
+    background: #98e698;
+}
+.grey {
+    background: grey;
+}
+.lightblack {
+    background: #1a1a1a;
+}
+h1{
+    background:#9EB9D4;
+    margin-top:0px;
+    margin-left:500px;
+    margin-right:500px;
+    height:100px;
+    border-radius:100px;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+html{
+    background-color: #222629;
+
+
+
+}
+section h2 h1{
+    font-family: "Monseratt", sans-serif;
+    text-align: center;
+    height: 200px;
+    color: white;
+
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.dropdown {
+    float: left;
+    text-align: center;
+}
+a {
+    text-align: center;
+}
+
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #34495e;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: grey;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #eeeeee;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*Contact.html*/
+.contact-section{
+    background-size:cover;
+    background: #222629;
+    padding: 40px 0;
+}
+
+.contact-section h1{
+    text-align: center;
+    color: #E0E0E0;
+}
+
+.border{
+    width:100px;
+    height: 10px;
+    background: #34495e;
+    margin: 40px auto;
+}
+
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+}
+
+.contact-form-text:hover{
+    box-shadow: 0 0 10px 4px #34495e;
+}
+
+textarea.contact-form-text{
+    resize: none;
+    height:120px;
+}
+
+.contact-form-btn{
+    float: right;
+    border: 0;
+    background: #34495e;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+    background: #2980b9;
+}
+
+.mute{
+    background-color: yellow;
+    width: 140px;
+}
+
+#mutebutton{
+    list-style-type: none;
+    text-align:right;
+}

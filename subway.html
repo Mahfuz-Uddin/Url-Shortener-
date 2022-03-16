@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <audio id="music" autoplay="autoplay">
+    <source src="music.mp3" />
+  </audio>
+  <meta charset="utf-8">
+  <title>Subway App</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="subway.js"></script>
+  <link rel="stylesheet" type="text/css" href="subway.css">
+
+
+
+</head>
+<body>
+
+<nav id="navbar">
+  <ul>
+    <li class="dropdown">
+      <a href="shortener.php" class="dropbtn" >Home</a>
+      <div class ="dropdown-content">
+      </div>
+    </li>
+    </li>
+    <li class="dropdown">
+      <a href="movie_index.html" class="dropbtn" >Movie Finder</a>
+      <div class ="dropdown-content">
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="subway.html" class="dropbtn" >NYC Subway App</a>
+      <div class ="dropdown-content">
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Course</a>
+      <div class="dropdown-content">
+        <a href="https://tophat.com/" target="_blank">TopHat</a>
+        <a href="https://tinyurl.com/CSCI355-Summer2021" target="_blank">Course Google Drive</a>
+        <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn current">About</a>
+      <div class="dropdown-content">
+        <a  href="aboutme.html">About The Developer</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="logout.php" class="dropbtn" >Log Out</a>
+      <div class ="dropdown-content">
+      </div>
+    </li>
+  </ul>
+  <li id="mutebutton">
+    <button class="mute" onclick="toggleSound()">mute music</button>
+  </li>
+
+</nav>
+<div id="all">
+
+  <div class="stations">
+    <h1>Trains & Stops</h1>
+  </div>
+</div>
+<ul  class="results"></ul>
+<script src="mutemusic.js"></script>
+</body>
+<footer>
+  <p>Created by Mahfuz Uddin</p>
+</footer>
+</html>

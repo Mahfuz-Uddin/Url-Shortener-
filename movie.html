@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Linking code-->
+        
+        <title>Movie Finder</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+        <script src="script_for_movie.js"></script>
+        <!-- <link rel="stylesheet" href="style2.css"> -->
+        <link rel="stylesheet" href="style3.css">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Yatra+One" rel="stylesheet">
+    </head>
+    
+<body>
+   <!-- NAVBAR BEGINS HERE-->
+   <nav id="navbar">
+     <ul>
+       <li class="dropdown">
+         <a href="shortener.php" class="dropbtn current" >Home</a>
+         <div class ="dropdown-content">
+         </div>
+       </li>
+       <li class="dropdown">
+        <a href="movie_index.html" class="dropbtn" >Movie Finder</a>
+        <div class ="dropdown-content">
+        </div>
+      </li>
+       <li class="dropdown">
+         <a href="#" class="dropbtn">Course</a>
+         <div class="dropdown-content">
+           <a href="https://tophat.com/" target="_blank">TopHat</a>
+           <a href="https://tinyurl.com/CSCI355-Summer2021" target="_blank">Course Google Drive</a>
+           <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
+         </div>
+       </li>
+       <li class="dropdown">
+         <a href="#" class="dropbtn">About</a>
+         <div class="dropdown-content">
+           <a href="aboutme.html">About The Developer</a>
+           <a href="contact.html">Contact</a>
+         </div>
+       </li>
+      </ul>
+       <style>@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');*{  box-sizing: border-box;  margin:0;  padding:0;  font-family: "Monseratt", sans-serif;}html{  background-color: #222629;}section h2 h1{  font-family: "Monseratt", sans-serif;  text-align: center;  height: 200px;  color: white;  font-size: 20px;}ul {  list-style-type: none;  overflow: hidden;}.dropdown {  float: left;  text-align: center;}a {  text-align: center;}.dropbtn {  display: inline-block;  color: white;  text-align: center;  padding: 14px 15px;  text-decoration: none;}li a:hover{  background-color: #34495e;}.dropdown {  display: inline-block;}.dropdown-content {  display: none;  position: absolute;  background-color: #f9f9f9;  min-width: 160px;  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);}.dropdown-content a {  color: grey;  padding: 14px 16px;  text-decoration: none;  display: block;  text-align: left;}.dropdown-content a:hover {background-color: #eeeeee;}.dropdown:hover .dropdown-content {  display: block;}/*Contact.html*/.contact-section{  background-size:cover;  background: #222629;  padding: 40px 0;}.contact-section h1{  text-align: center;  color: #E0E0E0;}.border{  width:100px;  height: 10px;  background: #34495e;  margin: 40px auto;}.contact-form{  max-width: 600px;  margin: auto;  padding: 0 10px;  overflow: hidden;}.contact-form-text{  display: block;  width: 100%;  box-sizing border-box;  margin: 16px 0;  border: 0;  background: #111;  padding: 20px 40px;  outline: none;  color: #ddd;  transition: 0.5s;}.contact-form-text:hover{  box-shadow: : 0 0 10px 4px #34495e;}textarea.contact-form-text{  resize: none;  height:120px;}.contact-form-btn{  float: right;  border: 0;  background: #34495e;  padding: 12px 50px;  border-radius: 20px;  cursor: pointer;  transition: 0.5s;}.contact-form-btn:hover{  background: #2980b9;}</style>
+   </nav>
+
+   <h1>Movie Finder</h1>
+    
+    <!--Search Form-->
+    <form id="form1">
+        <input type="text" id="inputMovie" name="title" />
+        <input type="submit" id="moviebutton" value="Submit" />
+    </form>
+    
+    <!--Adding a space-->
+    <hr/>
+    
+    <!--Using bootstrap and divs to organize the page-->
+    <div id="poster" class="row col-xs-12 col-sm-4 col-md-4">
+        <div id="picture" class="row col-sm-12 col-md-6"></div>
+    </div>
+    <div id="title" class="row col-sm-12 col-md-6"></div>
+    <div id="description" class="row col-sm-12 col-md-6"></div>
+    <div id="release_date" class="row col-xs-4 col-sm-4 col-md-4"></div>
+    <div id="original_lang" class="row col-xs-4 col-sm-4 col-md-4"></div>
+    <div id="rating" class="row col-xs-6 col-sm-4 col-md-4"></div>
+    <div id="vote_count" class="row col-xs-6 col-sm-4 col-md-4"></div>
+
+</body>
+
+
+</html>

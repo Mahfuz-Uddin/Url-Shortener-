@@ -1,0 +1,54 @@
+.form-body{
+    background-color: gray;
+    text-align: center;
+    font-size: 60px;
+}
+body{
+    background-color: gray;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 5px;
+}
+a:hover {
+    color: gray;
+    font-size: 34px;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+button, #login{
+    color: black;
+    height: 30px;
+    width: 110px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#chk1,label{
+    font-size: 20px;
+}
+p {
+    color:red;
+}
+
+.page-links{
+    font-size: 30px ;
+}
+input{
+    border-radius: 5px;
+}
+span:hover{
+    font-size: 70px;
+}
